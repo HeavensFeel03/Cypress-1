@@ -1,0 +1,18 @@
+{
+  "name": "5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "cy:run:headless:laptop": "npx cypress run -b edge -C cypress.config.js",
+    "cy:run:headed:laptop": "npx cypress run -b chrome --headed -C cypress.config.js",
+    "cy:run:headless:mobile": "npx cypress run -b edge -C cypressForMobile.config.js",
+    "cy:run:headed:mobile": "npx cypress run -b chrome --headed -C cypressForMobile.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.7.3"
+  }
+}
